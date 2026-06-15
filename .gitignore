@@ -1,0 +1,9 @@
+# Cartelle
+deprecated/
+
+# File nascosti
+.DS_Store
+Thumbs.db
+
+# Varie
+*.zip

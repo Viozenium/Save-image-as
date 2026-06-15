@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Save Image As",
+  "version": "1.0.0",
+  "description": "Save images as JPG, PNG or WebP via context menu.",
+  "icons": {
+    "128": "assets/icons/icon.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "activeTab",
+    "scripting",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
